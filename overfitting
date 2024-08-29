@@ -1,0 +1,4 @@
+Overfitting
+Veri biliminde yaygın olarak duyduğumuz overfitting terimi modelimizin train verilerini çok iyi öğrendiği ancak yeni verilere iyi cevap vermediği durumu ifade eder. Yani model, eğitim verilerini ezberler. Cok fazla kısıt girdiğimizde model bu verilere göre hareket eder. En ufak bir veri değişikliğinde yeni verilere ayak uyduramadığından düzgün calısmaz ve forecast vs gibi sonuc istedigimizde bize gerçekten uzak sonuclar gösterir. 
+Overfitting sebeplerini sayacak olursak, model train verileri fazla detaylı öğrendiğinde genelleme yapamaz. Verilerimizin boyutu küçükse ve yeterli veri yoksa sadece bu kucuk veri setinin özelliklerini öğrenir. Modelde kullanılan verilerin içerisinde hatalar varsa da bu modelin öğrenmesine dahil olabilir.
+Overfittingi önlemek için daha basit modeler kurmalıyız, veri boyutumuzu buyuk tutmalı ve karmaşıklıktan uzak durmalıyız. Farklı veri setlerinde modelimizi test ederek performansını arttırabiliriz.
